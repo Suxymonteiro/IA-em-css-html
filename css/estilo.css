@@ -1,0 +1,124 @@
+header#cabecalho{
+    border-bottom: 3px rgb(95, 89, 89) solid;
+}
+body {
+    background-color: rgb(231, 227, 235);
+    line-height: 1.8em;
+    text-align: justify;
+    font-size: larger;
+   
+}
+body p{
+    color: rgb(29, 28, 28);
+    font-family: Arial;
+}
+ul li{
+    color: rgb(75, 72, 72);
+}
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+ }
+h3{
+    color: white;
+    text-align: center;
+}
+h4{
+    color: aliceblue;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    color: aliceblue;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header#cabecalho{
+    margin: 30px 20px;
+    
+}
+
+/*Formatação do menu de navegação*/
+nav#menu img{
+    position: absolute;
+    left: 1050px;
+    top: 20px;
+}
+/*Formatação da interface*/
+div#interface{
+    width: 1200px;
+    background-image: url(..//Pictures/novo-1036642.jpg);
+    margin: 10px auto 0px auto;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0.5);
+    padding: 10px;
+    
+}
+section#pri{
+    display: block;
+    
+    float: left;
+}
+aside#lateral{
+    display: block;
+    float: right;
+    padding: 5px;
+}
+ul li{
+    font-family: Arial;
+    text-decoration: none;
+}
+ul#li{
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color:rgb(58, 57, 57);
+    padding: 10px;
+    margin: 9px;
+    transition: background-color 1s;
+    
+}
+ul#li:hover{
+background-color: rgb(214, 208, 208);
+}
+img#foto{
+    border: 5px gray solid;
+    box-shadow: 2px black;
+
+    height: -1%;
+}
+img#foto :hover{
+
+    background-color: rgb(80, 77, 77);
+}
+figure{
+    position: relative;
+}
+figure#foto{
+    height: 100%;
+    width: 100%;
+}
+figcaption{
+    position: absolute;
+    top: 0%;
+    background-color: rgb(0, 0, 0.4);
+    color: white;
+    
+
+}
+
+
+aside#lado{
+    display: block;
+    float: left;
+    width: 430px;
+}
+footer{
+    text-align: center;
+    border-top: 3px gray solid;
+}
+
